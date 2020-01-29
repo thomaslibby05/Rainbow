@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		68A6EF0923E1284D000C608B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68A6EF0823E1284D000C608B /* AppDelegate.swift */; };
 		68A6EF0B23E1284D000C608B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68A6EF0A23E1284D000C608B /* SceneDelegate.swift */; };
-		68A6EF0D23E1284D000C608B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68A6EF0C23E1284D000C608B /* ViewController.swift */; };
 		68A6EF1023E1284E000C608B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68A6EF0E23E1284E000C608B /* Main.storyboard */; };
 		68A6EF1223E12850000C608B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68A6EF1123E12850000C608B /* Assets.xcassets */; };
 		68A6EF1523E12850000C608B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68A6EF1323E12850000C608B /* LaunchScreen.storyboard */; };
@@ -19,7 +18,6 @@
 		68A6EF0523E1284D000C608B /* Rainbow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rainbow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		68A6EF0823E1284D000C608B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		68A6EF0A23E1284D000C608B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		68A6EF0C23E1284D000C608B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		68A6EF0F23E1284E000C608B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		68A6EF1123E12850000C608B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		68A6EF1423E12850000C608B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -56,15 +54,46 @@
 		68A6EF0723E1284D000C608B /* Rainbow */ = {
 			isa = PBXGroup;
 			children = (
-				68A6EF0823E1284D000C608B /* AppDelegate.swift */,
-				68A6EF0A23E1284D000C608B /* SceneDelegate.swift */,
-				68A6EF0C23E1284D000C608B /* ViewController.swift */,
-				68A6EF0E23E1284E000C608B /* Main.storyboard */,
-				68A6EF1123E12850000C608B /* Assets.xcassets */,
-				68A6EF1323E12850000C608B /* LaunchScreen.storyboard */,
+				68A6EF2023E12D09000C608B /* Model */,
+				68A6EF1F23E12CC6000C608B /* Views */,
+				68A6EF1E23E12CBB000C608B /* View Controllers */,
+				68A6EF1C23E12C21000C608B /* Resources */,
 				68A6EF1623E12850000C608B /* Info.plist */,
 			);
 			path = Rainbow;
+			sourceTree = "<group>";
+		};
+		68A6EF1C23E12C21000C608B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				68A6EF0823E1284D000C608B /* AppDelegate.swift */,
+				68A6EF0A23E1284D000C608B /* SceneDelegate.swift */,
+				68A6EF1123E12850000C608B /* Assets.xcassets */,
+				68A6EF1323E12850000C608B /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		68A6EF1E23E12CBB000C608B /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		68A6EF1F23E12CC6000C608B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				68A6EF0E23E1284E000C608B /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		68A6EF2023E12D09000C608B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +167,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				68A6EF0D23E1284D000C608B /* ViewController.swift in Sources */,
 				68A6EF0923E1284D000C608B /* AppDelegate.swift in Sources */,
 				68A6EF0B23E1284D000C608B /* SceneDelegate.swift in Sources */,
 			);
