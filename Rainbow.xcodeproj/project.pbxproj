@@ -12,6 +12,9 @@
 		68A6EF1023E1284E000C608B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68A6EF0E23E1284E000C608B /* Main.storyboard */; };
 		68A6EF1223E12850000C608B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68A6EF1123E12850000C608B /* Assets.xcassets */; };
 		68A6EF1523E12850000C608B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68A6EF1323E12850000C608B /* LaunchScreen.storyboard */; };
+		68C3AB5623E12EEF004B521A /* ColorsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C3AB5523E12EEF004B521A /* ColorsTableViewController.swift */; };
+		68C3AB5A23E12F6E004B521A /* ColorDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C3AB5923E12F6E004B521A /* ColorDetailViewController.swift */; };
+		68C3AB5C23E1360E004B521A /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C3AB5B23E1360E004B521A /* Color.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		68A6EF1123E12850000C608B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		68A6EF1423E12850000C608B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		68A6EF1623E12850000C608B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68C3AB5523E12EEF004B521A /* ColorsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsTableViewController.swift; sourceTree = "<group>"; };
+		68C3AB5923E12F6E004B521A /* ColorDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorDetailViewController.swift; sourceTree = "<group>"; };
+		68C3AB5B23E1360E004B521A /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +83,8 @@
 		68A6EF1E23E12CBB000C608B /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				68C3AB5523E12EEF004B521A /* ColorsTableViewController.swift */,
+				68C3AB5923E12F6E004B521A /* ColorDetailViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -92,6 +100,7 @@
 		68A6EF2023E12D09000C608B /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				68C3AB5B23E1360E004B521A /* Color.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -169,6 +178,9 @@
 			files = (
 				68A6EF0923E1284D000C608B /* AppDelegate.swift in Sources */,
 				68A6EF0B23E1284D000C608B /* SceneDelegate.swift in Sources */,
+				68C3AB5623E12EEF004B521A /* ColorsTableViewController.swift in Sources */,
+				68C3AB5C23E1360E004B521A /* Color.swift in Sources */,
+				68C3AB5A23E12F6E004B521A /* ColorDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,6 +325,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4L85A4MKYA;
 				INFOPLIST_FILE = Rainbow/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -330,6 +343,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4L85A4MKYA;
 				INFOPLIST_FILE = Rainbow/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
